@@ -31,3 +31,12 @@ body {
     text-wrap: balance;
   }
 }
+
+a:hover {
+  color: #007bff; /* Cambia el color al color primario personalizado en hover */
+}
+
+.pageTitle {
+  font-size: xxx-large;
+  margin: 1rem 0;
+}
