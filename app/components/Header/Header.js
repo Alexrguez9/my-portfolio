@@ -6,12 +6,14 @@ const Header = () => {
   return (
     <header>
       <div className={styles.headerContent}>
-        <h1 class>AR</h1>
+        <Link href="/" className={styles.headerTitle}>
+          AR
+        </Link>
         <nav className={styles.navbar}>
           <Link href="/" className={styles.navLink}>Home</Link>
           <Link href="/about" className={styles.navLink}>About</Link>
           <Link href="/projects" className={styles.navLink}>Projects</Link>
-          <Link href="#contact" className={styles.navLink}>Contact</Link>
+          <Link href="/contact" className={styles.navLink}>Contact</Link>
         </nav>
       </div>
     </header>

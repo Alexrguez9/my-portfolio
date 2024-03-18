@@ -1,0 +1,29 @@
+{
+    "proyectos": [
+      {
+        "nombre": "Plataforma de e-commerce",
+        "descripcion": "Desarrollar una plataforma de comercio electrónico desde cero, con características como catálogo de productos, carrito de compras, gestión de usuarios y pagos en línea.",
+        "tecnologias": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+        "dificultad": "Media"
+      },
+      {
+        "nombre": "Aplicación de gestión de tareas",
+        "descripcion": "Crear una aplicación web y móvil para gestionar tareas y proyectos, permitiendo a los usuarios crear, asignar, completar y rastrear el progreso de las tareas.",
+        "tecnologias": ["React", "Redux", "Node.js", "Express", "MongoDB", "React Native"],
+        "dificultad": "Alta"
+      },
+      {
+        "nombre": "Plataforma de blogging",
+        "descripcion": "Desarrollar una plataforma de blogging donde los usuarios puedan crear, editar y compartir artículos. La plataforma también debe incluir funciones como comentarios, etiquetas y búsqueda.",
+        "tecnologias": ["Vue.js", "Laravel", "MySQL", "Elasticsearch"],
+        "dificultad": "Media"
+      },
+      {
+        "nombre": "Aplicación de seguimiento de gastos",
+        "descripcion": "Crear una aplicación web y móvil para ayudar a los usuarios a realizar un seguimiento de sus gastos diarios, categorizarlos y generar informes visuales para ayudar en la gestión financiera.",
+        "tecnologias": ["Angular", "Firebase", "Ionic"],
+        "dificultad": "Baja"
+      }
+    ]
+  }
+  
