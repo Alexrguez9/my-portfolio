@@ -7,15 +7,15 @@ import Card from '../components/Card/Card';
 
 async function Projects() {
     const fetchedProjects = await fetchProjects();
-    console.log(fetchedProjects);
-    //TODO: revisar recibo de proyectos
+
     return (
         <div>
             <h1 className='flex justify-center pageTitle'>My Projects</h1>
-            <div>
+            <p className='flex justify-center m-4'>Los siguientes proyectos son ejemplos de proyectos. El portfolio todavía está en desarrollo...</p>
+            <div className='flex flex-wrap justify-center'>
                 <Suspense fallback={<div>Loading...</div>}>
                     {fetchedProjects && fetchedProjects.map((proyecto) => (
-                        <Card content={proyecto} type='conImg' />
+                        <Card key={proyecto.id} content={proyecto} type='conImg'/>
                     ))}
                 </Suspense>
             </div>
