@@ -1,0 +1,22 @@
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    align-items: center;
+    
+}
+
+.headerTitle {
+    margin: 0;
+    font-size: xx-large;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar > * {
+    margin: 0 1rem;
+}
