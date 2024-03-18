@@ -1,8 +1,12 @@
-import fs from 'fs';
-import path from 'path';
 
-export async function getProyectos() {
-  const filePath = path.join(process.cwd(), 'utils', 'projects.json');
-  const jsonData = await fs.promises.readFile(filePath, 'utf8');
-  return JSON.parse(jsonData);
+import { proyectos } from '../api/projects.json';
+
+export async function fetchProjects() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      const projects = proyectos;
+      resolve(projects);
+    }, 2000);
+  });
+  
 }
